@@ -59,7 +59,7 @@ func (c *Connector) CreateConnection(defUid uuid.UUID, config *structpb.Struct, 
 	}, nil
 }
 
-func (con *Connection) Execute(input interface{}) (interface{}, error) {
+func (con *Connection) Execute(input []*connectorPB.DataPayload) ([]*connectorPB.DataPayload, error) {
 	return input, nil
 }
 
