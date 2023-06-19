@@ -1,0 +1,48 @@
+[
+  {
+    "custom": false,
+    "documentationUrl": "https://www.instill.tech/docs/source-connectors/http",
+    "icon": "grpc.svg",
+    "iconUrl": "",
+    "id": "source-http",
+    "public": true,
+    "spec": {
+      "documentationUrl": "https://www.instill.tech/docs/source-connectors/http",
+      "connectionSpecification": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "title": "http Source Connector Spec",
+        "type": "object",
+        "required": [],
+        "additionalProperties": false,
+        "properties": {}
+      }
+    },
+    "title": "http",
+    "tombstone": false,
+    "uid": "f20a3c02-c70e-4e76-8566-7c13ca11d18d",
+    "vendorAttributes": {}
+  },
+  {
+    "custom": false,
+    "documentationUrl": "https://www.instill.tech/docs/source-connectors/grpc",
+    "icon": "grpc.svg",
+    "iconUrl": "",
+    "id": "source-grpc",
+    "public": true,
+    "spec": {
+      "documentationUrl": "https://www.instill.tech/docs/source-connectors/grpc",
+      "connectionSpecification": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "title": "gRPC Source Connector Spec",
+        "type": "object",
+        "required": [],
+        "additionalProperties": false,
+        "properties": {}
+      }
+    },
+    "title": "gRPC",
+    "tombstone": false,
+    "uid": "82ca7d29-a35c-4222-b900-8d6878195e7a",
+    "vendorAttributes": {}
+  }
+]
