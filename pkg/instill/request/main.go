@@ -17,11 +17,10 @@ import (
 
 // Note: this is a dummy connector
 
-//go:embed config/seed/source_definitions.yaml
-var sourceDefinitionsYaml []byte
+const venderName = "instill"
 
-//go:embed config/seed/source_specs.yaml
-var sourceSpecsYaml []byte
+//go:embed config/seed/definitions.json
+var destinationJson []byte
 
 var once sync.Once
 var connector base.IConnector
@@ -40,7 +39,7 @@ func Init(logger *zap.Logger) base.IConnector {
 		connDefs := []*connectorPB.SourceConnectorDefinition{}
 
 		loader := configLoader.InitJSONSchema(logger)
-		loader.Load(sourceDefinitionsYaml, sourceSpecsYaml, &connDefs)
+		loader.Load(venderName, destinationJson, &connDefs)
 
 		connector = &Connector{
 			BaseConnector: base.BaseConnector{Logger: logger},
