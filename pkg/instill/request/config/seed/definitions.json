@@ -2,7 +2,7 @@
   {
     "custom": false,
     "documentationUrl": "https://www.instill.tech/docs/source-connectors/http",
-    "icon": "grpc.svg",
+    "icon": "http.svg",
     "iconUrl": "",
     "id": "source-http",
     "public": true,
