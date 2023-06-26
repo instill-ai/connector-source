@@ -40,8 +40,8 @@ func (c *Connector) CreateConnection(defUid uuid.UUID, config *structpb.Struct, 
 	}, nil
 }
 
-func (con *Connection) Execute(input []*connectorPB.DataPayload) ([]*connectorPB.DataPayload, error) {
-	return input, nil
+func (con *Connection) Execute(inputs []*connectorPB.DataPayload) ([]*connectorPB.DataPayload, error) {
+	return inputs, nil
 }
 func (con *Connection) Test() (connectorPB.Connector_State, error) {
 	return connectorPB.Connector_STATE_UNSPECIFIED, nil
