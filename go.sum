@@ -58,8 +58,11 @@ github.com/grpc-ecosystem/grpc-gateway/v2 v2.7.2 h1:I/pwhnUln5wbMnTyRbzswA0/JxpK
 github.com/grpc-ecosystem/grpc-gateway/v2 v2.7.2/go.mod h1:lsuH8kb4GlMdSlI4alNIBBSAt5CHJtg3i+0WuN9J5YM=
 github.com/instill-ai/connector v0.0.0-20230626100237-5ecbb3c4c57a h1:CpMdixXmtZ7sv6eMbTnXRbKOPwXEMI38TODua+Kpf2o=
 github.com/instill-ai/connector v0.0.0-20230626100237-5ecbb3c4c57a/go.mod h1:m+xoiWEQElLcxGuYdU9wb+DVD6rQ1g72xHYyOW0m+Ek=
+github.com/instill-ai/connector v0.0.0-20230627145616-46d38fd71ac8 h1:mdZGyOMLFMNKsyWlat1e5QUUL1KsC1zN9HYZw+S5UKk=
+github.com/instill-ai/connector v0.0.0-20230627145616-46d38fd71ac8/go.mod h1:IqLjZ5zc854JeCXM4cz6jlbZeM0n5qgqkMO1qj6Xekk=
 github.com/instill-ai/protogen-go v0.3.3-alpha.0.20230626081036-adbc33794c42 h1:mmRaW6Tz/j2jqoKCGvo3V1HK4aCxs3/RDOaDjrWMvAo=
 github.com/instill-ai/protogen-go v0.3.3-alpha.0.20230626081036-adbc33794c42/go.mod h1:qsq5ecnA1xi2rLnVQFo/9xksA7I7wQu8c7rqM5xbIrQ=
+github.com/instill-ai/protogen-go v0.3.3-alpha.0.20230627140850-cfd958552c23/go.mod h1:qsq5ecnA1xi2rLnVQFo/9xksA7I7wQu8c7rqM5xbIrQ=
 github.com/pkg/errors v0.8.1 h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
