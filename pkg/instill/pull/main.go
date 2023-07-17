@@ -47,6 +47,6 @@ func (con *Connection) Test() (connectorPB.Connector_State, error) {
 	return connectorPB.Connector_STATE_UNSPECIFIED, nil
 }
 
-func (con *Connection) GetTaskName() (string, error) {
-	return "TASK_UNSPECIFIED", nil
+func (con *Connection) GetTask() (connectorPB.Task, error) {
+	return connectorPB.Task_TASK_UNSPECIFIED, nil
 }
